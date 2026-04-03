@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="Assignmetform.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> FORM ASSIGNMENT </title>
+</head>
+<body>
+    <form action="" method="post">
+    <h1> Login Form </h1>
+    <div class="imgcontainer">
+            <img src="OIP.webp" alt="Avatar" class="avatar">
+        </div>
+    <div class="container">
+        <table>
+            <colgroup>
+            <col style="width: 50%; background-color: rgb(255, 255,255);">
+            <col style="width: 50%; background-color: rgb(255, 255,255);">
+        </colgroup>
+        <tr>
+            <td><label for="uname"><b> Username</b></td>
+                <!-- <td>&nbsp;</td> -->
+            <td style="padding-left: 80px;"><label for="pwd"><b> Password</b></td>
+        </tr>
+
+        <tr>
+            <td><input type="text" placeholder="Enter Username" name="uname" required>
+            </label></td>
+            <td><input type="password" placeholder="Enter password" name="pwd" required>
+            </label></td>
+
+        </tr>
+        </table>
+    <div style="font-weight: bold; padding-top: 20px; padding-bottom: 5px; padding-right: 10px;"> Gender</div>
+    <div class="gender">
+        <div style="padding-right: 20px; margin-right: 2px; display:inline-block;">
+    <input type="radio" id="male"  name="gender" value="male">
+<label for="male"> Male </label>
+    </div>
+    <div style="padding-left: 128px; padding-bottom: 10px; display:inline-block;">
+    <input type="radio" id="female"  name="gender" value="female">
+    <label for="female">Female </label>
+    </div>
+    <div style="padding-left: 140px;  display:inline-block;">
+    <input type="radio" id="others"  name="gender" value="others" style="border: 1px solid red;;">
+    <label for="others">Others  </label>
+</div>
+</div>
+<div style="font-weight: bold; padding-top: 20px; padding-bottom: 5px;">Hobbies</div>
+<div class="hobbies">
+    <div style="display:inline-block;">
+        <input type="checkbox" id="cricket" name="hobbies" value="cricket">
+        <label for="cricket"> Cricket </label>
+    </div>
+    <div style=" padding-left: 138px;padding-bottom: 20px;display: inline-block;">
+        <input type="checkbox" id="swim" name="swim" value="swim">
+        <label for="swim "> Swim  </label>
+    </div>
+    <div style=" padding-left: 152px;padding-bottom: 10px;display: inline-block;">
+        <input type="checkbox" id="hockey" name="hobbies" value="hockey">
+        <label for="hockey"> Hockey   </label>
+    </div>
+    <br>
+    <div style="display: inline-block;">
+        <input type="checkbox" id="football" name="hobbies" value="football">
+        <label for="football"> Football </label>
+    </div>
+    <div style="padding-left: 132px;padding-bottom: 10px;display: inline-block;">
+        <input type="checkbox" id="gym" name="hobbies" value="gym">
+        <label for="gym"> Gym  </label>
+    </div>
+    <div style="padding-left: 156px;padding-bottom: 10px;display: inline-block;">
+        <input type="checkbox" id="running" name="hobbies" value="running">
+        <label for="running"> Running   </label>
+    </div>
+    </div>
+<!-- <form method="post">
+         <div class="imgcontainer">
+            <img src="OIP.webp" alt="Avatar" class="avatar">
+        </div> -->
+
+         <!-- <div class="container">
+            <label for="uname"><b> Username</b></label>
+            <input type="text" placeholder="Enter Username" name="uname" required>
+        
+        <div class="container">
+            <label for="psw"><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="psw" required>   
+        
+        <div class="container">
+            <label for="gen"><b> Gender </b></label>
+            <ul>
+                <li> 
+                    Male      Female        Others  
+                </li>
+            </ul> -->
+            <button type="Submit"> Login </button>
+            <input type="checkbox" checked="checked" name="remember"> Remember Me 
+                </div>
+
+         <div class="container1" style="background-color: #00ffff;">
+            <button type="button" class="cancelbtn">Cancel </button>
+            <span class="psw">Forget <a href="#">Password</a></span>
+        </div>
+
+       
+</body>
+</html>
