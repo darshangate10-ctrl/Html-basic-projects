@@ -1,0 +1,109 @@
+body{
+    font-family: sans-serif;
+}
+.info{
+    width:100%;
+    background-color:#0077b6;
+    border-collapse: collapse;
+    color: white;
+}
+.five{
+    color: white;
+    background-color: #0077b6;
+    /* border-spacing: 0/ 10px;   */
+    /* column-span: "5"; */
+    width:80%;
+    margin:auto;
+    margin-top: 20px;
+    border-collapse:collapse;
+    font-weight: bold;
+}
+.five tr td:nth-child(even){
+    background-color: #beffff;
+    color: black;
+}
+.five td{
+ border:none;
+ padding: 5px;
+}
+
+.revenue{
+    width:80%;
+    margin: auto;
+    border-collapse: collapse
+    solid lightblue;
+    letter-spacing: 1px;
+    font-size: 0.8rem;
+    border-collapse:collapse;
+    padding-bottom: 10px;
+}
+
+caption {
+    font-size: 10px ;
+    color: #00b4d8;
+    padding: 10px;
+}
+
+.info td {
+    border: none;
+    padding: 5px;
+}
+.logo{
+
+    text-align: left;
+    font-size: 35px;
+    margin: 0px;
+    padding: 0px;
+    border:1px solid red;
+}
+.revenue td,
+th {
+    border: 2px solid lightblue;
+    padding: 10px 20px;
+
+}
+
+th{
+    background-color:#0077b6;
+}
+
+.revenue th{
+    color: white;
+}
+td {
+    text-align: center;
+}
+.revenue td {
+
+    text-align: right;
+}
+
+
+h4{
+    padding-left: 155px ;
+}
+
+h5 {
+    padding-left: 155px ;
+}
+.XYZ{
+    color: white;
+}
+.revenue tr td:nth-child(1){
+    text-align: start;
+     
+}
+
+ img{
+   width: 150px;
+   height:150px;
+   border-radius: 50%; 
+   margin-top: 0%;
+}
+/* .circle td{
+    border: 1px solid green;
+} */
+
+.circle{
+    width: 90%;
+}
